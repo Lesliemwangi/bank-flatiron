@@ -5,10 +5,12 @@ function TransactionTable({ transactions }) {
     <table className="table table-success table-striped">
       <thead>
         <tr>
-          <th scope="col">Date</th>
-          <th scope="col">Description</th>
-          <th scope="col">Category</th>
-          <th scope="col">Amount</th>
+          <th scope="col">
+            <u>Date</u>
+          </th>
+          <th scope="col"><u>Description</u></th>
+          <th scope="col"><u>Category</u></th>
+          <th scope="col"><u>Amount</u></th>
         </tr>
       </thead>
       <Table transactions={transactions} />

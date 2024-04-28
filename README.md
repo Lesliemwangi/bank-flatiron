@@ -5,7 +5,7 @@
 #### By Leslie Wambui Mwangi
 
 ## Description
-This is a ReadMe file that explains how I solved my phase 2 week 1 code challenge.
+This is a react project that shows a person's recent bank transactions. It also enables one to add new transactions and make the transactions increase.
 
 
 ### Prerequisite
@@ -20,38 +20,35 @@ Currently, two official plugins are available:
 
 
 
-
-
 ## Installation
-You use git clone to be able to download the documents in the GitHub
-
+You use create vite to be able to download the documents in the Vite
 
 
 ## Installation Requirements
-Git
-
+React + Vite
 
 
 ### Installation instruction
-git@github.com:Lesliemwangi/SA.02-WK2-Code-Challenge.git
-
+git@github.com:Lesliemwangi/bank-flatiron.git
 
 
 # Live Link
-
 https://github.com/Lesliemwangi/bank-flatiron.git
 
 
 
 ## Technologies used
 React
+Vite
 Github
-Javascript
-
 
 
 ## Support and contact details
 (https://github.com/Lesliemwangi)
+
+# Website Online Link
+
+
 
 
 

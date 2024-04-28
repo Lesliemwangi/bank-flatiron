@@ -3,7 +3,9 @@ function Header() {
       <div className="text-primary">
         <div className="text-header">
           <h1>
-            <b>THE ROYAL BANK OF FLATIRON</b>
+            <b>
+              <u>THE ROYAL BANK OF FLATIRON</u>
+            </b>
           </h1>
         </div>
       </div>

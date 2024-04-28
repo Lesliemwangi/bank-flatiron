@@ -27,7 +27,9 @@ export default function Form({ transactions, setTransactions }) {
   return (
     <div className="row border" style={{ paddingBottom: "10px" }}>
       <div className="col-3">
-        <h6 >Date;</h6>
+        <h6>
+          <u>Date;</u>
+        </h6>
         <input
           type="date"
           className="form-control"
@@ -39,7 +41,9 @@ export default function Form({ transactions, setTransactions }) {
         />
       </div>
       <div className="col-3">
-        <h6>Description;</h6>
+        <h6>
+          <u>Description;</u>
+        </h6>
         <input
           type="description"
           className="form-control"
@@ -51,7 +55,9 @@ export default function Form({ transactions, setTransactions }) {
         />
       </div>
       <div className="col-3">
-        <h6>Category;</h6>
+        <h6>
+          <u>Category;</u>
+        </h6>
         <input
           type="text"
           className="form-control"
@@ -63,7 +69,9 @@ export default function Form({ transactions, setTransactions }) {
         />
       </div>
       <div className="col-3">
-        <h6>Amount;</h6>
+        <h6>
+          <u>Amount;</u>
+        </h6>
         <input
           type="text"
           className="form-control"
@@ -79,7 +87,7 @@ export default function Form({ transactions, setTransactions }) {
         <button
           type="submit"
           onClick={submitHandle}
-          className="btn btn-primary"
+          className="btn btn-secondary"
         >
           Add Transaction
         </button>
