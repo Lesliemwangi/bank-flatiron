@@ -71,7 +71,8 @@ function App() {
   ];
 
   const [transactions, setTransactions] = useState(goods);
-
+  const [report, setReport] = useState([]);
+  
   return (
     <div className="">
       <Header />
@@ -80,7 +81,14 @@ function App() {
         setTransactions={setTransactions}
         goods={goods}
       />
-      <Form />
+
+      <Form
+        transactions={transactions}
+        setTransactions={setTransactions}
+        report={report}
+        setReport={setReport}
+      />
+
       <TransactionTable transactions={transactions} />
     </div>
   );

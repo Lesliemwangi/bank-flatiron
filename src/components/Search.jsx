@@ -1,23 +1,21 @@
 function Search({ setTransactions, goods}) {
-  function handleChange (e){
+  function changeHandle (e){
      const info = e.target.value;
     if (info.length > 0) {
       const filter = goods.filter((currency) => {
-        return currency.description
-          .toLowerCase()
-          .includes(info.toLowerCase());
+        return currency.description.toLowerCase().includes(info.toLowerCase());
       });
       if (filter.length > 0) {
-        setTransactions([...filter]);
-      } else {
-        setTransactions([...goods]);
-      } 
-    }
+        setTransactions(filter);
+      }
+    } else {
+      setTransactions(goods);
+    } 
   }
 
   return (
     <div style={{ position: "relative", display: "inline-block" }}>
-      <input className="form-control" type="" placeholder="search" onChange={handleChange} />
+      <input className="form-control" type="" placeholder="search" onChange={changeHandle} />
       <button
         className="btn btn-primary"
         style={{ position: "absolute", top: 0, right: 0 }}
