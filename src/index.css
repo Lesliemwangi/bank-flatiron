@@ -1,0 +1,58 @@
+body {
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 5px;
+  
+}
+
+button {
+  padding: 5px;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody + tbody {
+  border-top: 2px solid #dee2e6;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table-success {
+  background-color: #d4edda;
+}
+
+td {
+  border: 1px;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+  padding: 5px;
+}
+
+.form-container {
+  padding-bottom: 20px; /* Adjust the value as needed */
+}

@@ -82,6 +82,7 @@ function App() {
         goods={goods}
       />
 
+      
       <Form
         transactions={transactions}
         setTransactions={setTransactions}

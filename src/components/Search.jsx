@@ -14,14 +14,15 @@ function Search({ setTransactions, goods}) {
   }
 
   return (
-    <div style={{ position: "relative", display: "inline-block" }}>
-      <input className="form-control" type="" placeholder="search" onChange={changeHandle} />
-      <button
-        className="btn btn-primary"
-        style={{ position: "absolute", top: 0, right: 0 }}
-      >
-        Search
-      </button>
+    <div style={{ display: "block", paddingBottom: "10px" }}>
+      <input
+        className="form-control"
+        type=""
+        placeholder="search description"
+        onChange={changeHandle}
+      />
+      
+
     </div>
   );
 }

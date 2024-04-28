@@ -1,30 +1,33 @@
 import { useState } from "react";
-export default function Form({transactions, setTransactions }) {
+
+export default function Form({ transactions, setTransactions }) {
   const [report, setReport] = useState({
-    date:"",
-    description:"",
-    category:"",
-    amount:""
+    date: "",
+    description: "",
+    category: "",
+    amount: ""
   });
 
-  function submitHandle(e){
+  function submitHandle(e) {
+    e.preventDefault();
     console.log(report);
-    e.preventDefault()
     if (report.date && report.description && report.category && report.amount) {
-    setTransactions([... transactions, report])
+      setTransactions([...transactions, report]);
+    }
   }
-}
 
   function changeHandle(e) {
     console.log(e.target.value);
     setReport({
       ...report,
       [e.target.name]: e.target.value
-    })
+    });
   }
+
   return (
-    <div className="row border">
+    <div className="row border" style={{ paddingBottom: "10px" }}>
       <div className="col-3">
+        <h6>Date</h6>
         <input
           type="date"
           className="form-control"
@@ -36,6 +39,7 @@ export default function Form({transactions, setTransactions }) {
         />
       </div>
       <div className="col-3">
+        <h6>Description</h6>
         <input
           type="description"
           className="form-control"
@@ -47,6 +51,7 @@ export default function Form({transactions, setTransactions }) {
         />
       </div>
       <div className="col-3">
+        <h6>Category</h6>
         <input
           type="text"
           className="form-control"
@@ -58,6 +63,7 @@ export default function Form({transactions, setTransactions }) {
         />
       </div>
       <div className="col-3">
+        <h6>Amount</h6>
         <input
           type="number"
           className="form-control"
@@ -69,8 +75,14 @@ export default function Form({transactions, setTransactions }) {
         />
       </div>
 
-      <div className="col-12">
-        <button type="submit" onClick={submitHandle}>Add Transaction</button>
+      <div className="col-12 d-flex justify-content-center">
+        <button
+          type="submit"
+          onClick={submitHandle}
+          className="btn btn-primary"
+        >
+          Add Transaction
+        </button>
       </div>
     </div>
   );
