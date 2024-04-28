@@ -1,6 +1,6 @@
 export default function Table() {
   return (
-    <div className="row">
+    <div className="row border">
       <div className="col-3">
         <input
           type="date"
@@ -32,6 +32,10 @@ export default function Table() {
           placeholder="amount"
           aria-label="amount"
         />
+      </div>
+
+      <div className="col-12">
+        <button>Add Transaction</button>
       </div>
     </div>
   );
