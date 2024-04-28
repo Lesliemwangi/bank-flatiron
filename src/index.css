@@ -1,11 +1,12 @@
 body {
-  padding: 20px;
+  margin: 10px;
+  padding: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h2 {
   text-align: center;
   padding-bottom: 5px;
-  
 }
 
 button {
@@ -40,7 +41,7 @@ button {
 }
 
 .table-success {
-  background-color: #d4edda;
+  background-color: #daf0e2;
 }
 
 td {
@@ -55,4 +56,92 @@ td {
 
 .form-container {
   padding-bottom: 20px; /* Adjust the value as needed */
+}
+
+.main-container {
+  width: 80%;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styling */
+.header-container, .header {
+  background-color: blue; /* Dark blue header */
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+/* Search Bar Styling */
+.search-bar input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Transaction Form Styling */
+.form-control {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.transaction-form {
+  margin-bottom: 20px;
+}
+
+.transaction-form div {
+  margin-bottom: 10px;
+}
+
+.transaction-form button {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.transaction-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Table Styling */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table thead {
+  background-color: #f8f9fa;
+}
+
+.table th, .table td {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.search-bar, .table {
+  border-radius: 5px;
+  border: 1px solid #4a90e2;
+  box-shadow: 1px 1px 2px #4a90e2;
+  margin-top: 20px;
+}
+
+
+.form {
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  box-shadow: 1px 1px 2px #cccccc;
+  margin-top: 20px;
+  padding: 20px;
 }
