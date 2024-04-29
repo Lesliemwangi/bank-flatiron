@@ -8,24 +8,16 @@ function TransactionTable({ transactions }) {
       <thead>
         <tr>
           <th scope="col">
-            <b>
-              <u>Date</u>
-            </b>
+            <u>Date</u>
           </th>
           <th scope="col">
-            <b>
-              <u>Description</u>
-            </b>
+            <u>Description</u>
           </th>
           <th scope="col">
-            <b>
-              <u>Category</u>
-            </b>
+            <u>Category</u>
           </th>
           <th scope="col">
-            <b>
-              <u>Amount</u>.
-            </b>
+            <u>Amount</u>
           </th>
         </tr>
       </thead>
