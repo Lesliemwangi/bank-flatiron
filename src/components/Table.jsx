@@ -2,7 +2,7 @@
 // Function component 'Table' receives 'transactions' as a prop
 function Table({ transactions }) {
   // Use 'map' to iterate through 'transactions' array and return a new array of table rows
-  const item = transactions.map((currency, index) => {
+  const goods = transactions.map((currency, index) => {
     // Destructure 'currency' object to access its properties
     const { date, description, category, amount } = currency;
 
@@ -18,7 +18,7 @@ function Table({ transactions }) {
   });
 
   // Return the table rows wrapped in a fragment
-  return <>{item}</>;
+  return <>{goods}</>;
 }
 
 // Export the 'Table' component
