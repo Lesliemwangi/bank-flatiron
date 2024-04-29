@@ -6,7 +6,9 @@ import Search from "../src/components/Search";
 import Form from "../src/components/Form";
 import TransactionTable from "../src/components/TransactionTable";
 
+// Function component representing the main App
 function App() {
+  // Array of transaction objects, each containing date, description, category, and amount
   const goods = [
     {
       date: "2023-05-16",
@@ -18,7 +20,7 @@ function App() {
       date: "2023-06-20",
       description: "Sushi",
       category: "Food",
-      amount: "100 Pounds"
+      amount: "100 Pounds",
     },
     {
       date: "2023-07-25",
@@ -70,9 +72,13 @@ function App() {
     },
   ];
 
+  // State variable to store transactions, initialized with the goods array
   const [transactions, setTransactions] = useState(goods);
+
+  // State variable to store the report, initialized as an empty array
   const [report, setReport] = useState([]);
-  
+
+  // Return the App component, which includes the Header, Search, Form, and TransactionTable components
   return (
     <div className="">
       <Header />
@@ -82,7 +88,6 @@ function App() {
         goods={goods}
       />
 
-      
       <Form
         transactions={transactions}
         setTransactions={setTransactions}

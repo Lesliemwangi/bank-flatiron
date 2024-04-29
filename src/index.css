@@ -40,12 +40,28 @@ button {
   background-color: rgba(0, 0, 0, 0.05);
 }
 
-.table-success {
-  background-color: #daf0e2;
+.table-info {
+  background-color:  #cdeff4;
 }
 
 td {
   border: 1px;
+}
+
+/* Table Styling */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table thead {
+  background-color: #f8f9fa;
+}
+
+.table th, .table td {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid #eee;
 }
 
 .btn-block {
@@ -53,6 +69,12 @@ td {
   width: 100%;
   padding: 5px;
 }
+
+
+.btn-info {
+  background-color: #cdeff4;
+}
+
 
 .form-container {
   padding-bottom: 20px; /* Adjust the value as needed */
@@ -68,7 +90,7 @@ td {
 
 /* Header Styling */
 .header-container, .header {
-  background-color: blue; /* Dark blue header */
+  background-color: blue;
   color: white;
   padding: 10px 20px;
   text-align: center;
@@ -114,21 +136,6 @@ td {
   background-color: #0056b3;
 }
 
-/* Table Styling */
-.table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.table thead {
-  background-color: #f8f9fa;
-}
-
-.table th, .table td {
-  text-align: left;
-  padding: 12px;
-  border-bottom: 1px solid #eee;
-}
 
 .search-bar, .table {
   border-radius: 5px;
