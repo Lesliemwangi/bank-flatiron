@@ -7,8 +7,9 @@
 ## Description
 This is a react project that shows a person's recent bank transactions. It also enables one to add new transactions and make the transactions increase.
 
-# Website Online Link
-[https://mellifluous-crepe-632eac.netlify.app]
+# DEPLOY LINK
+-[Netlify](https://mellifluous-crepe-632eac.netlify.app)
+-[Vercel](https://bank-flatiron-hny5l5ail-leslie-mwangis-projects.vercel.app)
 
 # React + Vite
 
