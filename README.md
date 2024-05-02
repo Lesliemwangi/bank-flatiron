@@ -7,8 +7,9 @@
 ## Description
 This is a react project that shows a person's recent bank transactions. It also enables one to add new transactions and make the transactions increase.
 
+# Website Online Link
+[https://mellifluous-crepe-632eac.netlify.app]
 
-### Prerequisite
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -45,10 +46,6 @@ Github
 
 ## Support and contact details
 (https://github.com/Lesliemwangi)
-
-# Website Online Link
-[https://mellifluous-crepe-632eac.netlify.app]
-
 
 
 
