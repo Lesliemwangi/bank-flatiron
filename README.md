@@ -22,32 +22,14 @@ Currently, two official plugins are available:
 
 
 
-## Installation
-You use create vite to be able to download the documents in the Vite
-
-
 ## Installation Requirements
 React + Vite
-
-
-### Installation instruction
-git@github.com:Lesliemwangi/bank-flatiron.git
-
-
-# Live Link
-https://github.com/Lesliemwangi/bank-flatiron.git
-
 
 
 ## Technologies used
 React
 Vite
 Github
-
-
-## Support and contact details
-(https://github.com/Lesliemwangi)
-
 
 
 ### License
