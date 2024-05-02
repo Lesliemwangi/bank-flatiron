@@ -8,8 +8,8 @@
 This is a react project that shows a person's recent bank transactions. It also enables one to add new transactions and make the transactions increase.
 
 # DEPLOY LINK
--[Netlify](https://mellifluous-crepe-632eac.netlify.app)
--[Vercel](https://bank-flatiron-hny5l5ail-leslie-mwangis-projects.vercel.app)
+-[Bank-Flatiron-Netlify-Link](https://mellifluous-crepe-632eac.netlify.app)
+-[Bank-Flatiron-Vercel-Link](https://bank-flatiron-hny5l5ail-leslie-mwangis-projects.vercel.app)
 
 # React + Vite
 
