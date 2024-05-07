@@ -1,4 +1,4 @@
-# SA.02: WK2: Code Challenge
+# SA.02: WK1: Code Challenge
 
 #### Date, 2024/04/28
 
